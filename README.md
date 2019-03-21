@@ -11,3 +11,9 @@ The ArcREST package is deprecated, BUT it runs against Python 2.7 which is still
 
 The only major downside is that it can’t do a ‘PUT’ so I had to add that to the some of the scripts that needed it (not very elegant, but it works).
 
+## StopGEEOutputs
+This script is an update of Andy Ommen's script that starts or stops a targeted set of outputs on the GeoEvent Server.
+
+https://community.esri.com/people/aommen-esristaff/blog/2016/10/19/scripting-tasks-using-the-geoevent-admin-api
+
+## 
