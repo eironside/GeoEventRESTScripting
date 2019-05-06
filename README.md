@@ -22,6 +22,6 @@ This script will iterate through your inputs (or a targeted list of inputs) and 
 Using a scheduler (such as Windows Task Scheduler) you could set this up to run on an hourly basis so the remote server will only send the last hours worth of data.
 
 ## UpdateGEEInputURLorHeaderParam
-This script will iterate through your inputs (or a targeted list of inputs) and update either a Header or a URL Property on any input that implements the HTTP Transport. As written, the script will update the value of a 'since' parameter to the current time minus one minute. This could be used in places where a server is expecting you to provide a time value from which you want it to send you data.
+This script will iterate through your inputs (or a targeted list of inputs) and update either a Header or a URL Property on any input that implements the HTTP Transport.  Use ```paramType = "headers"``` to update a header property or ```paramType = "clientParameters"``` to update a URL Property. As written, the script will update the value of a 'since' parameter to the current time minus one minute. This could be used in places where a server is expecting you to provide a time value from which you want it to send you data.
 
 Using a scheduler (such as Windows Task Scheduler) you could set this up to run on an hourly basis so the remote server will only send the last hours worth of data.
