@@ -19,8 +19,8 @@ geeTargetInputList = []  # input a list of geoevent inputs to update the url pra
 # Get list of all GeoEvent inputs from the REST api, copy 'Name' parameter for each output and paste into this list as a string
 # If the list is empty, this script will operate on all inputs where the paramName is found (all others will be ignored)
 
-paramName = "name"  # input the URL parameter name that should be set to the current datetime
-paramType = "headers"  # constant: "headers" or "clientParameters" - Use this to tell the script which parameter type to modify  
+paramName = "since"  # input the URL parameter name that should be set to the current datetime
+paramType = "clientParameters"  # constant: "headers" or "clientParameters" - Use this to tell the script which parameter type to modify  
 time_offset_sec = -60  # Input - the number of seconds to offset the time by (negative subtracts, positive adds). Use 0 or None to get the current time
 ############## Things to change every time ################
 
