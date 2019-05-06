@@ -2,7 +2,7 @@
 To use, you will need to install the ArcGIS_REST Python library on your machine:
   1. Open a command prompt on your machine
   2. Navigate (cd) to the scripts directory in your Python2.7 install (usually this is C:\Python27\ArcGISx6410.6\Scripts)
-  3. type ‘pip install arcrest_package’ and hit enter
+  3. type â€˜pip install arcrest_packageâ€™ and hit enter
 '''
 from datetime import timedelta
 import datetime
@@ -49,11 +49,13 @@ GES_URL_INPUTS = 'https://{}:{}/geoevent/admin/inputs'.format(server_fqdn, GES_P
 GES_URL_INPUT = 'https://{}:{}/geoevent/admin/input'.format(server_fqdn, GES_PORT)
 
 # Default component property values 
+### DO NOT MODIFY!!! 
 NAME = "name"
 VALUE = "value"
 TRANSPORT = "transport"
 PROPERTIES = "properties"
 CLIENT_PARAMETERS = "clientParameters"
+### DO NOT MODIFY!!! 
 ############## Things to change based on what you are doing ################
 
 
