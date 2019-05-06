@@ -41,13 +41,15 @@ TIME_STRING_FORMAT = "%Y-%m-%dT%H:%M:%SZ"
 GES_URL_INPUTS = 'https://{}:{}/geoevent/admin/inputs'.format(server_fqdn, GES_PORT)
 GES_URL_INPUT = 'https://{}:{}/geoevent/admin/input'.format(server_fqdn, GES_PORT)
 
-# Default component property values 
+# Default component property values  
+### DO NOT MODIFY!!! 
 NAME = "name"
 VALUE = "value"
 TRANSPORT = "transport"
 PROPERTIES = "properties"
 CLIENT_PARAMETERS = "clientParameters"
 HEADERS = "headers"
+### DO NOT MODIFY!!! 
 ############## Things to change based on what you are doing ################
 
 
