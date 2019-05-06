@@ -15,7 +15,7 @@ from future.moves.urllib import request
 server_fqdn = ""  # Input server_fqdn name (e.g. myserver.domain.com)
 username = ""  # Input AGS site username
 password = ""  # Input AGS user password
-geeTargetInputList = ['c8af890b-aec6-4259-80fc-c00da8bd6ecd']  # input a list of geoevent inputs to update the url pramater with
+geeTargetInputList = []  # input a list of geoevent inputs to update the url pramater with
 # Get list of all GeoEvent inputs from the REST api, copy 'Name' parameter for each output and paste into this list as a string
 # If the list is empty, this script will operate on all inputs where the paramName is found (all others will be ignored)
 
