@@ -1,7 +1,12 @@
+
+# This repository is no longer being maintained.
+For more recent, updated scripts, please see Luis Antonio Rodríguez González's repo here: https://github.com/LuisRguezEsriSpain/geoevent-scripting
+
 # GeoEventRESTScripting
 A place to stash information and scripts for automating the GeoEvent REST and ADMIN API.
 
 To run these, you need to install the ArcREST python site-package found on github here: https://github.com/Esri/ArcREST 
+Unfortunately, that site-package is no longer being maintained.
 
 The library is easy enough to install on your system:
 1.	Open command prompt and cd into the python scripts directory (e.g. C:\Python27\ArcGISx6410.6\Scripts)
